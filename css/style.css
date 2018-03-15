@@ -65,6 +65,7 @@ padding-bottom: 20px;
 }
 .lifestyle-post .branch {
    color: #b4ad9e;
+    text-transform: uppercase;
 }
 .lifestyle-post h2{
     font-size: 30px;
