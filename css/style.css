@@ -92,14 +92,13 @@ button::selection{
     background-color: #1abc9c;
 }
 .product{
-    margin: 92px 0 100px 0;
+    margin: 92px 0 40px 0;
 }
 .product-items{
     float: left;
     width: 255px;
-    height: 282px;
     background-color: #e9f0fd;
-    margin: 30px 0 ;
+    margin-bottom: 30px;
 }
 .product-items:not(:nth-child(4n)){
     margin-right: 30px;
@@ -127,12 +126,12 @@ button::selection{
     background-color: #7fd9c7;
 }
 /*secend section start*/
-.new-section{
-    width: 350px;
+.latest-news{
     overflow: hidden;
-    padding-bottom: 50px;
 }
-.new-section{
+.latest-news .new-section{
+    width: 350px;
+    margin: 30px 0;
     float: left;
 }
 .new-section + .new-section{
