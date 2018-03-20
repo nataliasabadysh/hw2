@@ -43,13 +43,12 @@ button::selection{
 /*HEADER START*/
 
 .header-main{
-    padding: 42px 0 ;
+    padding: 42px 0;
+    margin-bottom: 30px;
 }
 .main-nav{
     text-transform: uppercase;
 }
-
-
 .logo{
     float: left;
     font: 300 30px/34px 'Roboto', sans-serif;
@@ -79,7 +78,7 @@ button::selection{
     text-transform: uppercase;
     font: 900 48px/1 'Roboto', sans-serif;
     text-align: center;
-    margin-bottom: 32px;
+    margin: 0;
     color: #515151;
 }
 .title-page::after{
