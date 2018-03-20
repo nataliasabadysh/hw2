@@ -44,7 +44,6 @@ button::selection{
 
 .header-main{
     padding: 42px 0;
-    margin-bottom: 30px;
 }
 .main-nav{
     text-transform: uppercase;
@@ -74,6 +73,9 @@ button::selection{
 /*main sart*/
 
 /*first section start*/
+.main-content{
+    margin-top: 30px;
+}
 .title-page{
     text-transform: uppercase;
     font: 900 48px/1 'Roboto', sans-serif;
