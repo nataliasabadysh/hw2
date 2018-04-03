@@ -22,12 +22,27 @@ ul li {
 }
 
 .header-logo {
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  font-size: 30px;
+  font: bold 30px/1 "Montserrat", sans-serif;
   text-decoration: none;
   color: #95e1d3;
-  transition: color 0.2s linear;
+  display: inline-block;
+  animation: logo-appear 1s linear;
+}
+@keyframes logo-appear {
+  0% {
+    transform: translateY(-200px);
+    opacity: 0;
+  }
+
+  50% {
+    transform: translateY(0);
+    opacity: 1;
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .header-nav {
