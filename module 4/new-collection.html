@@ -6,9 +6,10 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Roboto:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="pe-icon-7-stroke/css/pe-icon-7-stroke.css">
 
 </head>
-<body class="bg-gray">
+<body>
 <header class="header-main wrapper">
     <h1 class="title visually-hidden">Mart website</h1>
     <nav class="main-nav cleafix">
@@ -39,24 +40,56 @@
         </ul>
     </nav>
 </header>
-<main>
-    <div class="slider">
-        <ul class="slides">
-            <li class="slides-item">
-                <img class="slides-image" src="img/slide&category/slide4.png" width="1648" height="602" alt="image">
+<main class="bg-gray">
+    <section class="slider">
+        <ul class="slider-slides">
+            <li class="slider-slides-item">
+                <img class="slider-slides-item-img" src="img/slide&category/slide4.png" alt="4 Girls Walking">
+                <div class="slider-slides-item-content">
+                    <h2 class="slider-slides-item-header">Affordable paris tours</h2>
+                    <p class="slider-slides-item-text">City Tours / Tour Tickets / Tour Guides</p>
+                </div>
             </li>
         </ul>
-        <div class="slider-info">
-            <button class="slider-ctrl slider-ctrl-prev">PREV</button>
-            <button class="slider-ctrl slider-ctrl-next">NEXT</button>
+        <div class="slider-button-wrap">
+            <button class="slider-button prev">Scroll Previous</button>
+            <button class="slider-button next">Scroll Next</button>
         </div>
-    </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
     <div class="wrapper">
         <h2 class="title-page">featured products</h2>
-        <section class="collection-items product cleafix">
+        <section class="collection-items product clearfix">
 
 
                 <div class="product-items">
+
+                    <div class="card-hover">
+                        <div class="card-hover-content">
+                            <ul class="icon-list clearfix">
+                                <li class="like">
+                                    <span class="visually-hidden">Like</span>
+                                </li>
+                                <li class="compare">
+                                    <span class="visually-hidden">Compare</span>
+                                </li>
+                                <li class="save">
+                                    <span class="visually-hidden">Save</span>
+                                </li>
+                            </ul>
+                            <a class="cart-icon">Add to cart</a>
+                        </div>
+                    </div>
+
 
                     <a href="#">
                         <img src="img/slide&category/image1.png" alt="item Unisex hat" width="255" height="282">
@@ -96,3 +129,4 @@
 </footer>
 </body>
 </html>
+
